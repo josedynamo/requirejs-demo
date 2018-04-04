@@ -1,8 +1,8 @@
 requirejs.config({
     baseUrl: './scripts',
     paths: {
-        jquery: 'jquery',
-        underscore: 'underscore-min'
+        jquery: 'libs/jquery',
+        underscore: 'libs/underscore-min'
     },
     bundles: {
         'message' : ['first-module', 'another-module'] ,
